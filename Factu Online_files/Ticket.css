@@ -1,0 +1,48 @@
+﻿/*Estilos para la previsualización del ticket e impresión en Windows*/
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    /*line-height: 1.42857143;*/
+    /*color: #333;
+    background-color: #fff*/
+}
+.Encabezado {
+    font-size: 20px
+}
+.DatosEmpresa {
+    font-size: 12px;
+}
+.TipoEmpresa {
+    font-size: 9px;
+}
+.CAE {
+    font-size: 8px;
+}
+
+/*Formatea campo de texto para el importe en pesos (Ticket)*/
+.TbPesos {
+    width: 120px; /*120px*/
+    text-align: right;
+    border: none;
+    background: none;
+}
+
+/* Indicador de avance para envio de mail */
+#EnviandoMail {
+    background-color: #009cf6;
+    border: 1px solid #777;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 1px 1px 4px #333;
+    -webkit-box-shadow: 1px 1px 4px #333;
+    box-shadow: 1px 1px 4px #333;
+    color: #ffffff;
+    position: fixed;
+    top: 50%;
+    left: 20%;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bolder;
+}
